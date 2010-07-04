@@ -1,0 +1,5 @@
+# Ignore log files
+log/*
+
+# Ignore sqlite3 dbs in db folder
+*.sqlite3
