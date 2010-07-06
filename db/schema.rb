@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100704102214) do
+ActiveRecord::Schema.define(:version => 20100706015134) do
 
   create_table "shouts", :force => true do |t|
     t.integer  "sender"
@@ -26,6 +26,7 @@ ActiveRecord::Schema.define(:version => 20100704102214) do
     t.string   "phone"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "name"
   end
 
 end
