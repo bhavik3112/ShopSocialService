@@ -2,7 +2,6 @@
 
 <table>
   <tr>
-    <th>Name</th>
     <th>Email</th>
     <th>Password</th>
     <th>Phone</th>
@@ -10,7 +9,6 @@
 
 <% @users.each do |user| %>
   <tr>
-    <td><%=h user.name %></td>
     <td><%=h user.email %></td>
     <td><%=h user.password %></td>
     <td><%=h user.phone %></td>
